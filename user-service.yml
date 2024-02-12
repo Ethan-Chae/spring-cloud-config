@@ -10,7 +10,7 @@ token:
   secret: 413F4428472B4B6250655368566D5970337336763979244226452948404D6351GMT125125125125125125125125125125125151251
 
 gateway:
-  ip: 172.18.0.5
+  ip: 172.18.0.5 # 도커 네트워크 주소로 변경
 
 order_service:
   url: http://order-service/order-service/%s/orders
